@@ -484,9 +484,11 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Creality Ender-5
+  // SAFE
   //#define DEFAULT_Kp 21.73
   //#define DEFAULT_Ki 1.54
   //#define DEFAULT_Kd 76.55
+
   #define DEFAULT_Kp 31.28
   #define DEFAULT_Ki 3.61
   #define DEFAULT_Kd 67.71
@@ -539,6 +541,7 @@
   //#define DEFAULT_bedKd 1675.16
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
+  // SAFE: Uncomment these if you want safe default settings
   //#define DEFAULT_bedKp 50.71
   //#define DEFAULT_bedKi 9.88
   //#define DEFAULT_bedKd 173.43
@@ -1092,8 +1095,8 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 235
-#define Y_BED_SIZE 235
+#define X_BED_SIZE 225
+#define Y_BED_SIZE 225
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
@@ -1140,7 +1143,7 @@
  * For other boards you may need to define FIL_RUNOUT_PIN, FIL_RUNOUT2_PIN, etc.
  * By default the firmware assumes HIGH=FILAMENT PRESENT.
  */
-//#define FILAMENT_RUNOUT_SENSOR
+#define FILAMENT_RUNOUT_SENSOR
 #if ENABLED(FILAMENT_RUNOUT_SENSOR)
   #define NUM_RUNOUT_SENSORS   1     // Number of sensors, up to one per extruder. Define a FIL_RUNOUT#_PIN for each.
   #define FIL_RUNOUT_INVERTING true // Set to true to invert the logic of the sensor.
