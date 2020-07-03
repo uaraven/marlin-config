@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(ovoronin, Ender-5-SKR-mE3-V2.0)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(ovoronin, ovo-Ender-5-SKR-mE3-V2.0)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
