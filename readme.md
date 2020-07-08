@@ -2,7 +2,7 @@
 
 ## Ender5/SKR-MiniE3-V2.0
 
-Configuration files for [SKR Mini E3 V2.0](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3)
+Configuration files for Ender 5 with SKR Mini E3 V2.0 based on vanilla Marlin.
 
 ## What's in there?
 
@@ -17,7 +17,7 @@ Settings for Ender 5. Following options are enabled, change them in accordance w
 
 ## How to use
 
-Copy files over to `firmware/V2.0/Marlin/2.0.x-SKR-mini-E3-V2.0` folder.
+Copy files over to Marlin folder.
 
 **Things to change before compiling**:
 
